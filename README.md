@@ -1,4 +1,4 @@
-# 📚 DSA Practice – Complete Roadmap
+# 📚 DSA Practice – Complete RoadMap
 
 Welcome to my *DSA-Practice* repository.  
 This repository contains structured Data Structures & Algorithms (DSA) topics for *interview preparation, problem-solving, and self-study*. Each folder includes theory, Python implementations, and a curated list of problems (easy → hard).  
