@@ -1,4 +1,4 @@
-'''🔢 Pattern 4 — Repeating Number Triangle Pattern
+'''🔢 Pattern 4 — Repeating Number Triangle
 
 Problem Code: 102  Difficulty: Easy
 
