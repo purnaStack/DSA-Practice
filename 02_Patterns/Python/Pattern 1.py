@@ -52,9 +52,9 @@ Output:
 - After each row, use `print()` to move to the next line.
 
 ---
-
-### 💻 Python Solution
-python '''
+'''
+# ================= Python Solution =================
+# Run this part with Python interpreter (python filename.py)
 class Solution:
     def pattern1(self, n):
         for i in range(n):
@@ -66,3 +66,35 @@ if __name__ == "__main__":
     n = int(input("Enter value of n: "))
     sol = Solution()
     sol.pattern1(n)
+
+# ================= Java Solution =================
+''' Run this part with Java compiler (javac filename.java)
+   and then java filename
+
+class Solution {
+    // Function to print pattern1
+    public void pattern1(int n) {
+        
+        // Outer loop will run for rows.
+        for (int i = 0; i < n; i++) {
+            
+            // Inner loop will run for columns.
+            for (int j = 0; j < n; j++) {
+                System.out.print("*");
+            }
+            /* As soon as n stars are printed, move
+            to the next row and give a line break. */
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        int N = 4;
+
+        // Create an instance of the Solution class
+        Solution sol = new Solution();
+
+        sol.pattern1(N);
+    }
+}
+'''
